@@ -1,7 +1,7 @@
 ## Hi, I'm Harsh Singh 👋
 Java Full Stack Developer | Spring Boot | React
 
-# CropConnect 
+# Project-CropConnect 
 
 ## Overview
 CropConnect is a full-stack web application that connects farmers and buyers,
