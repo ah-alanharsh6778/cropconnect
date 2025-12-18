@@ -1,0 +1,42 @@
+.dashboard-wrapper {
+  display: flex;
+  height: 100vh;
+  overflow: hidden;
+  background: #f4f6f8;
+}
+
+
+.dashboard-left {
+  width: 28%;
+  padding: 20px;
+  background: white;
+  border-right: 2px solid #ddd;
+  overflow-y: auto;
+}
+
+.info-card {
+  background: #eceff1;;
+  padding: 15px;
+  border-radius: 8px;
+  margin-bottom: 15px;
+}
+
+.dashboard-right {
+  width: 72%;
+  padding: 20px;
+  overflow-y: scroll;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+.dashboard-right::-webkit-scrollbar {
+  width: 8px;
+}
+.dashboard-right::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+.dashboard-right::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+

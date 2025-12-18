@@ -1,0 +1,70 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #e8f5e9; /* light green background */
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* App wrapper */
+.App {
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* Center content of pages */
+.page-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 40px;
+}
+
+/* Form card look */
+.form-card {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  width: 350px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Form heading */
+.form-card h2 {
+  color: #4caf50;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* Input fields */
+.form-card input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 15px;
+}
+
+/* Button */
+.form-card button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.form-card button:hover {
+  background-color: #45a049;
+}
+

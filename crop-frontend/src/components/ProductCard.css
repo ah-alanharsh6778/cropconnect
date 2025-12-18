@@ -1,0 +1,33 @@
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 10px;
+  margin: 10px;
+  width: 150px;
+  text-align: center;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  background: #fff;
+}
+
+/* Product Image */
+.product-image {
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 8px;
+  background: #f2f2f2;
+}
+
+/* No Image Fallback Box */
+.no-image-box {
+  width: 150px;
+  height: 150px;
+  border-radius: 8px;
+  background: #e6e6e6;
+  color: #555;
+  font-size: 13px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

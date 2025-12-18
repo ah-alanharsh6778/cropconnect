@@ -1,0 +1,64 @@
+.buyer-products-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.buyer-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  flex-wrap: wrap;
+}
+
+.buyer-title {
+  font-size: 2rem;
+  margin-bottom: 10px;
+}
+
+.buyer-search-input {
+  padding: 8px 12px;
+  margin-right: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.buyer-products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.buyer-product-card {
+  padding: 15px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.buyer-product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+}
+
+.buyer-add-btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  margin-top: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.buyer-add-btn:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.buyer-loading, .buyer-error, .buyer-no-products {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
